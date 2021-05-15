@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="App">
       <TareaForm 
-      nuevaTarea={nuevaTarea}
+      nuevaTarea={nuevaTarea} 
       />
 
       {
