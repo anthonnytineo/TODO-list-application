@@ -9,7 +9,7 @@ function App() {
 
 
   const nuevaTarea = (tarea) => {
-    setListaTareas([tarea, ...listaTareas])
+    setListaTareas([...listaTareas, tarea])
   }
 
 

@@ -6,7 +6,7 @@ const TareaFrom = (props) => {
     const [inputText, setInputText] = useState("");
 
     const manejarFormulario = (event) => {
-        setInputText(event.target.value);
+        setInputText(event);
     }
 
     const submit = (event) => {
@@ -18,9 +18,8 @@ const TareaFrom = (props) => {
     return (
         <div>
             <form className="form" onSubmit={submit}>
-                <span>Añadir tarea</span>
+                <h1>todos</h1>
                 <input value={inputText} onChange={manejarFormulario}/>
-                <button>Añadir</button>
             </form>
         </div>
     )
